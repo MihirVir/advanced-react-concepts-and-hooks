@@ -1,6 +1,8 @@
-import {PortalComp} from "./components/Portals/PortalComp.jsx"
+import {PortalComp} from "./components/Portals/PortalComp.jsx";
+import { RefComponent } from "./components/ForwardingRefs/RefComponent.jsx";
+
 const App = () => {
-  return <PortalComp />
+  return <RefComponent />
 }
 
-export default App;
+export default App ;
