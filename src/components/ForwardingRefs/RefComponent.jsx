@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import {Input} from "./input.jsx"
+
 const buttonStyle = {
   padding: "1rem",
   fontSize: "1.05rem",
@@ -8,7 +9,7 @@ const buttonStyle = {
   color: "white",
   border: "none",
   outline: "none"
-}
+};
 
 export const RefComponent = () => {
   const inputRef = useRef();
@@ -28,5 +29,6 @@ export const RefComponent = () => {
         </button>
       </form>
     </>
-  )
-}
+  );
+};
+
