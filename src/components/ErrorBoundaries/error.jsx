@@ -21,6 +21,12 @@ export class ErrorHandler extends React.Component {
     return { hasError: true }
   }
 
+  // for logging purpose
+
+  componentDidCatch(error) {
+    console.log("error", error);
+  }
+
   render() {
     if (this.state.hasError) { return this.props.fallback };
 
