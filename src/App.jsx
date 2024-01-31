@@ -7,11 +7,14 @@ import { LayoutEffectApp } from "./components/UseLayoutEffect/impl-use-effect.js
 import { UseIdApp } from "./components/UseId/use-id-impl.jsx"
 import { UseCallbackRefApp } from "./components/UseCallbackRef/UseCallbackRefApp.jsx";
 import { UseImperativeApp } from "./components/UseImperativeHandler/UseImperativeApp.jsx";
+import { UseDefferedApp } from "./components/UseDefferedValue/UseDefferedApp.jsx";
+import { UseTransitionApp } from "./components/UseTransition/UseTransitionApp.jsx";
+
 
 const App = () => {
   return(
     <React.StrictMode>
-      <UseImperativeApp />
+      <UseTransitionApp />
     </React.StrictMode>
   );
 };
